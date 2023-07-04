@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --btn-min-width:100px;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #ffffff;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(240, 240, 240), rgb(255, 255, 255));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(237, 237, 237), rgb(255, 255, 255))
+  }
+
+.card {
+  border-radius: 1rem;
+}
+
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width:100%;    
+}
+
+.classroom-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 94vh;
+  
+}
+
+.classroom {
+  margin-top: 100px;
+  width: 30vw;
+  height: 50%;
+ 
+}
+
+.classroom ul{
+  overflow-y: auto;
+  width: 100%;
+  max-height: 100%;
+}
+
+.classroom ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.classroom ul li p{
+  margin: 0;
+}
+
+
+nav {
+  height: 6vh;
+  border-bottom: 4px solid black;
+  background-color: transparent;
+}
+
+.dropdown {
+  margin-right: 70px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.custom-input {
+  border: 5px solid black;
+  border-radius: 0px;
+  /* box-shadow: 3px 3px black; */
+}
+
+.custom-button {
+  border: 5px solid black;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 0px;
+  box-shadow: 5px 5px black;
+  color: black;
+  transition: .5s;
+}
+
+.custom-button:hover {
+  transform: scale(.97);
+  font-size: 22px;
+  font-weight: 600;
+  border: 5px solid black;
+  border-radius: 0px;
+  box-shadow: 7px 6px black;
+  color: black;
+}
+
+.custom-list-group {
+  border: 4px solid black;
+  border-radius: 0px;
+}
+
+.custom-list-group-item {
+  border: none;
+  font-size: 20px;
+}
+
+.custom-nav-button-profile {
+  border: none;
+  font-size: 20px;
+}
+
+.custom-nav-button-profile:hover {
+  border: none;
+}
+
+.custom-nav-button-actions {
+  border: none;
+  color: black;
+  font-size: 20px;
+  transition: .5s;
+  background-color: rgb(133, 178, 240);
+}
+
+.custom-nav-button-actions:hover {
+  background-color: rgb(149,188,242);
+  transform: scale(.97);
+  color: black;
+}
+
+.custom-menu {
+  border-radius: 0px;
+  border: 3px solid black;
+  font-size: 20px;
+}
